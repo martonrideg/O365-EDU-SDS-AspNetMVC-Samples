@@ -74,8 +74,8 @@ namespace OneRosterProviderDemo.Models
                     CreatedAt = DateTime.Now,
                     Status = Vocabulary.StatusType.active,
                     Type = Vocabulary.OrgType.district,
-                    Name = "Superhero School District",
-                    Identifier = "CONTOSO-SUPERHEROES"
+                    Name = "Mátészalkai Tankerületi Központ",
+                    Identifier = "MTSZTK"
                 },
                 new Org()
                 {
@@ -84,9 +84,9 @@ namespace OneRosterProviderDemo.Models
                     CreatedAt = DateTime.Now,
                     Status = Vocabulary.StatusType.active,
                     Type = Vocabulary.OrgType.school,
-                    Name = "Superhero Prep School",
+                    Name = "Fehérgyarmati Deák Ferenc Gimnázium és Kollégium",
                     ParentOrgId = "org-1",
-                    Identifier = "CONTOSO-PREP"
+                    Identifier = "033646"
                 }
             );
 
